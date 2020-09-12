@@ -1,0 +1,55 @@
+<?php echo $this->render('authHeader.phtml'); ?>
+<div id="main">
+    <section class="row section">
+        <div class="row-content buffer even clear-after">
+            <div class="section-title">
+                <h3>Crie sua conta!</h3>
+            </div>
+            <p>
+                Para começar a ganhar dinheiro, preencha os campos abaixo e clique em concluir o cadastro.
+            </p>
+            <div class="column nine">
+                <form id="cadastro" class="contact-section" method="post" action="<?php echo $this->baseUrl ?>/cadastro/add">
+                    <span class="pre-input"><i class="icon icon-user"></i></span>
+                    <input class="name plain buffer" type="text" name="fullname" placeholder="Seu nome completo">
+                    <span class="pre-input"><i class="icon icon-email"></i></span>
+                    <input class="email plain buffer" type="email" name="email" placeholder="Endereço de e-mail">
+                    <span class="pre-input"><i class="icon icon-lock"></i></span>
+                    <input class="name plain buffer" type="password" name="senha" placeholder="Sua senha">
+                    <input id="send" class="plain button yellow" type="submit" value="Concluir Cadastro">
+                </form>
+                <div id="success"></div>
+            </div>
+            <div class="column three last">
+                <div class="widget">
+                    <h4>Sobre o registro</h4>
+                    <p>
+                        Ao registrar você aceita a <a href="/politica-de-privacidade.php">Política de Privacidade</a> e os <a href="/termos-de-uso.php">Termos de Uso</a> do site.
+                    </p>
+                </div>
+                <div class="widget">
+                    <h4>Já possui conta?</h4>
+                    <p>
+                        Faça <a href="/login.php">Login</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+</div>
+<!-- id-main -->
+<script type="text/javascript">
+    $(function () {
+
+        //$("#login").submit(function (event) {
+        //    $.post("/ajax_.php?q=login&r=" + Math.random(), $("#login").serialize()).done(function (data) {
+        //        $('#success').html(data);
+        //    });
+        //    event.preventDefault();
+        //});
+
+
+    });
+</script>
+<?php echo $this->render('authFooter.phtml'); ?>

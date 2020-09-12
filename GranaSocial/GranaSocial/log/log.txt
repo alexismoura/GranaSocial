@@ -1,0 +1,57 @@
+2009-04-17T18:28:07-03:00 DEBUG (7): Plugin by name Upload was not found in the registry.
+#0 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Abstract.php(335): Zend_Loader_PluginLoader->load('Upload')
+#1 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Http.php(50): Zend_File_Transfer_Adapter_Abstract->addValidator('Upload', false, Array)
+#2 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\controllers\IndexController.php(11): Zend_File_Transfer_Adapter_Http->__construct()
+#3 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Action.php(129): IndexController->init()
+#4 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Dispatcher\Standard.php(269): Zend_Controller_Action->__construct(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http), Array)
+#5 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Front.php(914): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\bootstrap.php(76): Zend_Controller_Front->dispatch()
+#7 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\index.php(15): Bootstrap->runApp()
+#8 {main}
+-----------------------------
+2009-04-17T18:28:39-03:00 DEBUG (7): Plugin by name Upload was not found in the registry.
+#0 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Abstract.php(335): Zend_Loader_PluginLoader->load('Upload')
+#1 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Http.php(50): Zend_File_Transfer_Adapter_Abstract->addValidator('Upload', false, Array)
+#2 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\controllers\IndexController.php(11): Zend_File_Transfer_Adapter_Http->__construct()
+#3 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Action.php(129): IndexController->init()
+#4 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Dispatcher\Standard.php(269): Zend_Controller_Action->__construct(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http), Array)
+#5 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Front.php(914): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\bootstrap.php(76): Zend_Controller_Front->dispatch()
+#7 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\index.php(15): Bootstrap->runApp()
+#8 {main}
+-----------------------------
+2009-04-17T18:29:09-03:00 DEBUG (7): Plugin by name Upload was not found in the registry.
+#0 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Abstract.php(335): Zend_Loader_PluginLoader->load('Upload')
+#1 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\File\Transfer\Adapter\Http.php(50): Zend_File_Transfer_Adapter_Abstract->addValidator('Upload', false, Array)
+#2 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\controllers\IndexController.php(11): Zend_File_Transfer_Adapter_Http->__construct()
+#3 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Action.php(129): IndexController->init()
+#4 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Dispatcher\Standard.php(269): Zend_Controller_Action->__construct(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http), Array)
+#5 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\library\Zend\Controller\Front.php(914): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\application\bootstrap.php(76): Zend_Controller_Front->dispatch()
+#7 C:\Temp\distribute_apache2.0_mini\distribute_apache2.0_mini\htdocs\web1\index.php(15): Bootstrap->runApp()
+#8 {main}
+-----------------------------
+2009-05-03T00:31:24-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:31:34-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:33:08-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:33:11-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:36:49-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:41:27-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:42:54-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:47:07-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:50:38-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-03T00:59:10-03:00 CRIT (2): Consulta - SELECT `role`.* FROM `role` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T01:59:38-03:00 CRIT (2): Consulta - SELECT `SOT_UG`.* FROM `SOT_UG` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:00:37-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:02:42-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:02:49-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:04:02-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:04:14-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:06:54-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:07:22-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:08:08-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:12:55-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:13:38-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:16:00-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` ORDER BY `cod_veiculo` asc - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:17:45-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias
+2009-05-31T02:18:08-03:00 CRIT (2): Consulta - SELECT `veiculo`.* FROM `veiculo` - SQLSTATE[42000]: Syntax error or access violation: 1248 Every derived table must have its own alias

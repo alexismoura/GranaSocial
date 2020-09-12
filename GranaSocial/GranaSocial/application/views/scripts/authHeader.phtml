@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title><?=$this->escape($this->title); ?></title>
+
+    <link rel="stylesheet" href="<?=$this->baseUrl;?>/public/styles/layers.min.css" media="screen">
+    <link rel="stylesheet" href="<?=$this->baseUrl;?>/public/styles/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="<?=$this->baseUrl;?>/public/styles/style.css" media="screen">
+    <link rel="stylesheet" href="<?=$this->baseUrl;?>/public/styles/base.css" rel="stylesheet" type="text/css">
+
+    <link rel="icon" href="http://granasocial.com/favicon.ico">
+    <link rel="apple-touch-icon" href="http://granasocial.com/img/apple-touch-icon.png">
+
+    <style type="text/css">
+        @-ms-viewport {
+            width: device-width;
+        }
+
+        .fluidvids-elem {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .fluidvids {
+            width: 100%;
+            position: relative;
+        }
+    </style>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="<?=$this->baseUrl;?>/public/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+</head>
+<body>
+    <header role="banner" class="transparent light fixed-header">
+        <div class="row">
+            <div class="nav-inner row-content buffer-left buffer-right even clear-after">
+                <div id="brand">
+                    <h1 class="reset">
+                        <!--<img src="img/logo.png" alt="logo">-->
+                        <a href="http://granasocial.com/">
+                            <img src="<?=$this->baseUrl;?>/public/images/logo.png"></a></h1>
+                </div>
+                <!-- brand -->
+                <a id="menu-toggle" href="http://granasocial.com/login.php#"><i class="fa fa-bars fa-lg"></i></a>
+                <nav>
+                    <ul class="reset" role="navigation">
+                        <li class="menu-item">
+                            <a href="./loginBoost_files/loginBoost.html">Login</a>
+
+                        </li>
+                        <li class="menu-item">
+                            <a href="http://granasocial.com/cadastro.php">Crie sua conta</a>
+
+                        </li>
+                        <li class="menu-item">
+                            <a href="http://granasocial.com/como-funciona.php">Como Funciona</a>
+
+                        </li>
+                        <li class="menu-item parent">
+                            <a href="http://granasocial.com/faq.php">Central de Ajuda<span class="sub-arrow"><i class="fa fa-chevron-down"></i></span></a>
+                            <ul class="sub-menu">
+                                <li><a href="http://granasocial.com/faq.php">FAQ</a></li>
+                                <li><a href="https://www.facebook.com/groups/680889425349482/">Fórum de Ajuda</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item"><a href="http://granasocial.com/contato.php">Contato</a></li>
+                        <li class="menu-item last">
+                            <a href="http://granasocial.com/painel_anunciantes/"><small>Login Anunciantes</small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- row-content -->
+        </div>
+        <!-- row -->
+    </header>
+    <main role="main" style="margin-top: 89px;">
+

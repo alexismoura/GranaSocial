@@ -1,0 +1,53 @@
+<?php echo $this->render('authHeader.phtml'); ?>
+	    <div id="main">
+            <section class="row section">
+			    <div class="row-content buffer even clear-after">
+
+				    <div class="section-title">
+                        <h3>Login!</h3>
+                    <p>
+                        <font color="red"><?php echo $this->errors;?></font>
+                    </p>
+				    </div>	
+				    <div class="column nine">
+					    <form id="login" class="contact-section" method="post" action="<?php echo $this->baseUrl ?>/auth/login">
+								
+						    <span class="pre-input"><i class="icon icon-email"></i></span>
+						    <input class="email plain buffer" type="email" name="username" placeholder="Endereço de e-mail" value="<?=$this->username ?>">
+						    <span class="pre-input"><i class="icon icon-lock"></i></span>
+						    <input class="name plain buffer" type="password" name="password" placeholder="Sua senha" value="<?=$this->password ?>">
+					        <div class="widget">
+                                <a href="http://granasocial.com/recuperar-senha.php" style="text-decoration:none;">
+                                <h4>Esqueceu sua senha? Clique aqui para recuperar.</h4>
+                                </a>
+					        </div>	
+                            <input id="send" class="plain button yellow" type="submit" value="Login">
+					    </form>	
+					    <div id="success"></div>
+				    </div>
+				    <div class="column three last">
+					    <div class="widget">
+						    <h4>Não possui conta?</h4>
+						    <p>
+						    <a href="http://granasocial.com/cadastro.php">Registre-se!</a>
+						    </p>
+					    </div>
+															
+				    </div><div class="clear"></div>
+			    </div>
+		    </section>
+        </div><!-- id-main -->
+        <script type="text/javascript">
+            $(function () {
+
+                //$("#login").submit(function (event) {
+                //    $.post("/ajax_.php?q=login&r=" + Math.random(), $("#login").serialize()).done(function (data) {
+                //        $('#success').html(data);
+                //    });
+                //    event.preventDefault();
+                //});
+
+
+            });
+        </script>
+<?php echo $this->render('authFooter.phtml'); ?>
